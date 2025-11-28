@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css layouts</title>
+    <link rel="stylesheet" href="/week2/layouts.css">
+  </head>
+  <body>
+    <header>
+      <h1>Flexbox Demo: container & Item properties</h1>
+    </header>
+    <main>
+      <section class="demo-section">
+        <h2>1. Responsive Navigation Bar (justify-content)</h2>
+        <nav class="flex-container nav-bar">
+          <a href="a">Home</a>
+          <a href="a">About</a>
+          <a href="a">Services</a>
+          <!--<a href="g">Contact<a/> -->
+        </nav>
+      </section>
+
+      <hr />
+
+      <section class="demo-section">
+        <h2>2. Responsive Card Layout (flex-wrap & flex-grow)</h2>
+        <div class="flex-container card-wrapper">
+          <div class="flex-item Card Card-1">
+            <h3>Card 1 (flex-grow: 1)</h3>
+          </div>
+          <div class="flex-item Card Card-2">
+            <h3>Card 2 (flex-grow: 2)</h3>
+          </div>
+          <div class="flex-item Card Card-3">
+            <h3>Card 3 (flex-grow: 1)</h3>
+          </div>
+          <div class="flex-item Card Card-4">
+            <h3>Card 4 (flex-wrap: wrap: wrap)</h3>
+          </div>
+        </div>
+        <p class="resize-note">
+          Try resizing the browser window to see how the cards adjust their
+          sizes and wrap to new lines based on the available space.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

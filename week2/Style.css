@@ -6,7 +6,7 @@ background-color: lightcoral;
 color: white;
 padding: 20px;
 border: 2px dotted black;
-/"Even if you set these, they won't move the box"/
+/*"Even if you set these, they won't move the box"*/
 position: static;
 }
 
@@ -17,14 +17,14 @@ position: static;
     border: 2px solid black;
 
     position: relative;
-    /"Moves 30px down from its original top edge and 20px right"/
+    /*"Moves 30px down from its original top edge and 20px right"*/
 }
 
 .normal-box {
     background-color: lightgray;
     padding: 20px;
     border: 2px solid black;
-    /"This box not move up to fill the relative box's original spot"/
+    /*"This box not move up to fill the relative box's original spot"*/
 }
 
 .parent-relative{
@@ -32,7 +32,7 @@ position: static;
     padding: 50px;
     border: 3px dashed black;
     height: 200px;
-    /"1. This makes it the positioning context for its absolute child"/
+    /*"1. This makes it the positioning context for its absolute child"*/
     position: relative;
 }
 
@@ -54,7 +54,7 @@ position: static;
     border: 3px solid black;
     height: 100px;
     width: 100px;
-    left: 1355px;
+    left: 1240px;
     bottom: 147px;
     text-align: center;
     position: relative;
