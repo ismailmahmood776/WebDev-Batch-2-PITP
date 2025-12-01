@@ -6,14 +6,16 @@
 }
 
 header {
-    display: flex;
+    background: linear-gradient(to right, #437edf,#1cc88a );
     justify-content: space-between;
     align-items: center;
-    background-color: #1E90FF;
-    padding: 10px;
+    background-color: lightskyblue;
+    padding: 25px;
     width: 100%;
-    color: black;
+    color: white;
     height: 80px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 h1 {
@@ -54,11 +56,15 @@ h2 {
 
 }
 
-footer {
+footer p {
     background-color: black;
-    text-align: center;
+    color: white;
+    height: 5vh;
 }
 
+footer a {
+    color: white;
+}
 body {
     margin: 0;
     padding: 0;
