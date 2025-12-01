@@ -8,17 +8,17 @@
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: darkblue;
+    background-color: #1E90FF;
     padding: 10px;
     width: 100%;
-    color: white;
+    color: black;
     height: 80px;
 }
 
 h1 {
     width: 80vh;
     text-align: center;
+    color: black;
 }
 
 img {
@@ -31,12 +31,14 @@ main {
     flex-direction: column;
     padding: 20px;
     gap: 20px;
+    background-color: #f4f6f9;
 
 }
 
 p{
     font-size: 12px;
     text-align: justify;
+    color: rgb(0, 1, 4);
 }
 
 section {
@@ -45,11 +47,20 @@ section {
     gap: 10px;
 }
 
-h1 {
-    font-size: 20px;
+h2 {
+    font-size: 2opx;
+    color: #1E90FF;
 
 }
 
-a {
-    color: white;
+footer {
+    background-color: lightgoldenrodyellow;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+     background: white;
+    font-family: 'Poppins', sans-serif;
+    color: black;
 }
