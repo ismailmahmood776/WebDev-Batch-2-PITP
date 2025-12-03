@@ -1,0 +1,63 @@
+/*General Reset and Styling*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+body {
+    background-color: rgb(247, 225, 197);
+}
+    
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+
+hr {
+    margin: 40px;
+    border: 0;
+    border-top: 1px solid grey;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+flex-container card-wrapper {
+    background-color: yellowgreen;
+    padding: 20px;
+    border: 2px dotted white;
+    position: relative;
+
+}
+
+.demo-section{
+    background-color: rgb(225 , 225 , 225);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+.resize-note{
+    margin: top 10px;
+    
+}
+
+.flex-container{
+    display: flex;
+    border: 2px solid black;
+    min-width: 100px;
+    margin-top: 15px;
+}
+
+.nav-bar{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(40 , 177 , 177);
+}
+/* REQUIRED THIS turns on Flexbox for the container */
