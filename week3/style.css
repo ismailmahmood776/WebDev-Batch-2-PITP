@@ -1,0 +1,14 @@
+#menu-toggle {
+    padding: 10px 20px;
+    margin: 10px;
+    color: black;
+    background-color: tomato;
+    height: 10svh;
+    width: 100px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
