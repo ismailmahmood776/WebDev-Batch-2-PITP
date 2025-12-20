@@ -31,7 +31,7 @@ main {
     padding: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 8px;
-    transition: transform 0.3, box-shadow 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .movie-card:hover {
@@ -57,5 +57,19 @@ footer {
     background: linear-gradient(to right,#001f3f, #007bff);
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px 10px;
+    margin-top: 20px;
+    border-top: 2px solid #444;
 }
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
