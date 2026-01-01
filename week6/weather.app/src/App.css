@@ -1,42 +1,96 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Background & center layout */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Root container acts like card */
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 380px;
   text-align: center;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Input */
+input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 15px;
+  transition: 0.3s;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+input:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 0 2px rgba(108, 99, 255, 0.2);
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #554ee0;
+}
+
+/* City name */
+h1 {
+  margin-top: 20px;
+  font-size: 26px;
+  color: #333;
+}
+
+/* Temperature & condition */
+h2 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+  font-weight: 500;
+}
+
+/* Weather icon alignment */
+h2 img {
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  #root {
+    margin: 15px;
+    padding: 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  h1 {
+    font-size: 22px;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
